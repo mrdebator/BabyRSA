@@ -15,19 +15,21 @@ print('''
 def truncate(num):
     return int((num * 1000000)/1000000)
 
-def primeFactors(primeNumber):
+#Returns list of prime factors of a given number
+def primeFactors(number):
     i = 2
     factors = []
-    while i * i <= primeNumber:
-        if primeNumber % i:
+    while i * i <= number:
+        if number % i:
             i += 1
         else:
-            primeNumber //= i
+            number //= i
             factors.append(i)
-    if primeNumber > 1:
-        factors.append(primeNumber)
+    if number > 1:
+        factors.append(number)
     return factors
 
+#returns list of elements with no duplicates
 def removeDuplicates(primeFactorList):
     finalList = []
     for i in primeFactorList:
@@ -35,6 +37,7 @@ def removeDuplicates(primeFactorList):
             finalList.append(i)
     return finalList
 
+#finds the private key number d in the RSA Algorithm
 def findWholeNumberd(e, phi):
     for i in range(e):
         d = (1 + (i*phi))/e

@@ -12,6 +12,13 @@ print('''
 ╱╱╱╱╱╱╱╱╱╱╰━━╯
 ''')
 
+print('''
+Usage: 
+
+1. Unencrypted data must be entered as text.
+2. Ciphertext must be decimal encoded.
+''')
+
 def truncate(num):
     return int((num * 1000000)/1000000)
 

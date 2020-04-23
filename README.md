@@ -11,6 +11,12 @@ You must have **python3** installed on your machine.
 ## Usage
 ```python3 RSA-Decoder.py```
 
+### Ansh Chandnani
+
+Blog: https://techtalks0.wordpress.com
+LinkedIn: https://www.linkedin.com/in/ansh-chandnani-512165149/
+Github: https://github.com/mrdebator
+
 ## Legal
 Open Source Initiative - MIT License
 Copyright (c) 2020 Ansh Chandnani.

@@ -12,7 +12,13 @@ You must have **python3** installed on your machine.
 ```python3 RSA-Decoder.py```
 
 
-## Contributors 
+## Contributors
+
+### Smrithi Pyari Lal
+
+- LinkedIn: https://www.linkedin.com/in/smrithi-pyari-lal-1a251b195/
+- Github: https://github.com/smrithipyarilal
+
 ### Ansh Chandnani
 
 - Blog: https://techtalks0.wordpress.com
@@ -21,7 +27,7 @@ You must have **python3** installed on your machine.
 
 ## Legal
 Open Source Initiative - MIT License
-Copyright (c) 2020 Ansh Chandnani.
+Copyright (c) 2020 Ansh Chandnani, Smrithi Pyari Lal.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

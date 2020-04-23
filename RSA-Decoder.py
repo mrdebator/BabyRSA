@@ -19,6 +19,8 @@ Usage:
 2. Ciphertext must be decimal encoded.
 ''')
 
+
+#used to compare if a number is a whole number
 def truncate(num):
     return int((num * 1000000)/1000000)
 
@@ -60,7 +62,7 @@ e = int(input("Enter given value of e: "))
 primeFactorList = primeFactors(n)
 primeFactorList = removeDuplicates(primeFactorList)
 
-print(primeFactorList)
+print('\n \n')
 
 if len(primeFactorList) != 2:
     print("Given value for n has", len(primeFactorList) , "prime factors and hence cannot be used for RSA Encryption or Decryption.")
@@ -84,4 +86,26 @@ if(d == None):
     print("Exiting...")
     exit(3)
     
-print(phi, d)
+print('Smaller prime p:', p)
+print('Larger prime q:', q)
+print('Public Key (e, n): ({0}, {1})'.format(e, n))
+print('Private Key (d, n): ({0}, {1})'.format(int(d), n))
+
+print('\n \n')
+
+#decoding cipher text
+print('Decode ciphertext ONLY into coressponding numeric counterparts. Input MUST be numeric.')
+check = input('Do you want to decode a string? (y/n):  ')
+if (check == 'y') or (check == 'Y'):
+    cipherText = input('Enter encoded numbers separated by a space: ')
+    cipherTextList = cipherText.split(' ')
+    messageTextList = []
+    #formula to decrypt
+    for i in cipherTextList:
+        decrypted = (int(i)**d) % n
+        messageTextList.append(decrypted)
+    print('Decoded list:', messageTextList)
+else:
+    exit(0)
+
+

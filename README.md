@@ -3,13 +3,13 @@ This repository is for encrypting and decrypting RSA algorithm in small prime nu
 Useful tool in CTFs, originally developed for a CTF Problem in National Cyber League Spring 2020
 
 ## Installation
-  git clone https://github.com/mrdebator/BabyRSA/
+  ```git clone https://github.com/mrdebator/BabyRSA/```
 
 ## Pre-requisites
 You must have **python3** installed on your machine.
 
 ## Usage
-  python3 RSA-Decoder.py
+```python3 RSA-Decoder.py```
 
 ## Legal
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

@@ -14,16 +14,16 @@ You must have **python3** installed on your machine.
 
 ## Contributors
 
-### Smrithi Pyari Lal
-
-- LinkedIn: https://www.linkedin.com/in/smrithi-pyari-lal-1a251b195/
-- Github: https://github.com/smrithipyarilal
-
 ### Ansh Chandnani
 
 - Blog: https://techtalks0.wordpress.com
 - LinkedIn: https://www.linkedin.com/in/ansh-chandnani-512165149/
 - Github: https://github.com/mrdebator
+
+### Smrithi Pyari Lal
+
+- LinkedIn: https://www.linkedin.com/in/smrithi-pyari-lal-1a251b195/
+- Github: https://github.com/smrithipyarilal
 
 ## Legal
 Open Source Initiative - MIT License

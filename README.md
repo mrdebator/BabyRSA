@@ -24,7 +24,10 @@ You must have **python3** installed on your machine.
 
 - LinkedIn: https://www.linkedin.com/in/smrithi-pyari-lal-1a251b195/
 - Github: https://github.com/smrithipyarilal
+### Nirav Brahmbhatt 
 
+- LinkedIn: www.linkedin.com/in/nirav-brahmhatt
+- Github: https://github.com/cybernirav
 ## Legal
 Open Source Initiative - MIT License
 Copyright (c) 2020 Ansh Chandnani.

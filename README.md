@@ -1,5 +1,5 @@
 # BabyRSA
-This repository is for encrypting and decrypting RSA algorithm in small prime numbers using Python.
+This repository is for encrypting and decrypting RSA algorithm in small prime numbers (< 20 digits) using Python.
 Useful tool in CTFs, originally developed for a CTF Problem in National Cyber League Spring 2020
 
 ## Installation
